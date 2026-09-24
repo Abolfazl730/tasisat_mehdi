@@ -3,256 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>تأسیسات مهدی | خدمات تأسیسات در تهران</title>
-
-  <meta name="description"
-        content="تأسیسات مهدی ارائه‌دهنده خدمات تأسیسات، لوله‌کشی، تعمیرات و نصب در تهران، منطقه ۲۲.">
-
+  <meta name="description" content="تأسیسات مهدی؛ خدمات تخصصی جوشکاری، لوله‌کشی گاز، آب، فاضلاب و موتورخانه در تهران، منطقه ۲۲.">
+  <meta name="keywords" content="تأسیسات مهدی, جوشکاری, لوله کشی گاز, لوله کشی آب, لوله کشی فاضلاب, موتورخانه, تهران منطقه 22">
+  <title>تأسیسات مهدی | خدمات تخصصی تأسیسات</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: Tahoma, Arial, sans-serif;
-      background: #f4f7fa;
-      color: #222;
-      line-height: 1.8;
-    }
-
-    header {
-      background: #123b5d;
-      color: white;
-      padding: 35px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 34px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 18px;
-    }
-
-    nav {
-      background: #0b2b43;
-      text-align: center;
-      padding: 12px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #ffd166;
-    }
-
-    .hero {
-      background: white;
-      text-align: center;
-      padding: 55px 20px;
-    }
-
-    .hero h2 {
-      color: #123b5d;
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
-
-    .hero p {
-      max-width: 750px;
-      margin: auto;
-      font-size: 18px;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 13px 25px;
-      background: #123b5d;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-
-    .button:hover {
-      background: #0b2b43;
-    }
-
-    section {
-      max-width: 1100px;
-      margin: 30px auto;
-      padding: 20px;
-    }
-
-    section h2 {
-      text-align: center;
-      color: #123b5d;
-      margin-bottom: 25px;
-    }
-
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-
-    .service {
-      background: white;
-      padding: 25px;
-      border-radius: 12px;
-      text-align: center;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
-
-    .service h3 {
-      color: #123b5d;
-      margin-bottom: 10px;
-    }
-
-    .contact {
-      background: #123b5d;
-      color: white;
-      text-align: center;
-      border-radius: 12px;
-      padding: 35px 20px;
-    }
-
-    .contact h2 {
-      color: white;
-    }
-
-    .contact a {
-      color: white;
-      font-size: 20px;
-      text-decoration: none;
-      display: block;
-      margin: 8px;
-    }
-
-    footer {
-      background: #0b2b43;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 27px;
-      }
-
-      .hero h2 {
-        font-size: 24px;
-      }
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+    :root{--navy:#06182b;--navy2:#0b2948;--yellow:#ffc400;--white:#fff;--text:#10233b;--muted:#607086;--green:#20c875;--red:#ef3340}
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;font-family:Vazirmatn,Tahoma,sans-serif;background:#f7f9fc;color:var(--text);line-height:1.8}
+    a{text-decoration:none;color:inherit}
+    .top{background:#041322;color:#fff;padding:10px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:14px}
+    .top .phones{display:flex;gap:22px;flex-wrap:wrap}.top b{color:var(--yellow)}
+    header{position:sticky;top:0;z-index:20;background:rgba(6,24,43,.96);backdrop-filter:blur(10px);color:#fff;padding:15px 6%;display:flex;align-items:center;justify-content:space-between;gap:25px;border-bottom:1px solid #173653}
+    .logo{font-size:25px;font-weight:900}.logo span{color:var(--yellow)}
+    nav{display:flex;gap:25px;font-weight:600;font-size:14px}nav a:hover{color:var(--yellow)}
+    .actions{display:flex;gap:9px}.btn{padding:10px 16px;border-radius:12px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.25s}.btn:hover{transform:translateY(-2px)}
+    .btn-red{background:var(--red);color:#fff}.btn-green{background:var(--green);color:#fff}.btn-yellow{background:var(--yellow);color:#07182a}
+    .hero{min-height:610px;background:linear-gradient(90deg,rgba(3,16,29,.97) 8%,rgba(3,16,29,.78) 44%,rgba(3,16,29,.2) 100%),url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1800&q=85') center/cover;display:flex;align-items:center;color:#fff}
+    .hero-inner{width:min(1180px,88%);margin:auto;padding:70px 0}.badge{display:inline-block;color:var(--yellow);font-weight:800;margin-bottom:8px}
+    h1{font-size:clamp(42px,6vw,76px);line-height:1.2;margin:0 0 14px;font-weight:900}h1 span{color:var(--yellow)}
+    .hero h2{font-size:clamp(22px,3vw,34px);margin:0 0 16px}.hero p{max-width:650px;color:#e4edf6;font-size:18px}
+    .hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.hero .btn{padding:13px 23px}
+    .trust{display:flex;gap:28px;flex-wrap:wrap;margin-top:30px;color:#e8eef5}.trust div{display:flex;gap:8px;align-items:center}.dot{width:9px;height:9px;background:var(--yellow);border-radius:50%}
+    section{padding:75px 6%}.section-title{text-align:center;margin-bottom:40px}.section-title h2{font-size:36px;margin:0 0 5px}.section-title p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;max-width:1200px;margin:auto}
+    .card{background:#fff;border:1px solid #e3eaf2;border-radius:18px;padding:27px 18px;text-align:center;box-shadow:0 8px 30px rgba(10,35,60,.06);transition:.25s}.card:hover{transform:translateY(-6px);box-shadow:0 15px 35px rgba(10,35,60,.12)}
+    .icon{width:65px;height:65px;border-radius:50%;background:#fff4c7;color:#081e35;display:grid;place-items:center;font-size:29px;margin:0 auto 15px;border:4px solid var(--yellow)}
+    .card h3{margin:5px 0;font-size:19px}.card p{font-size:13px;color:var(--muted);margin:5px 0}
+    .portfolio{background:var(--navy);color:#fff}.gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;max-width:1200px;margin:auto}
+    .work{height:270px;border-radius:16px;overflow:hidden;position:relative;background:#173653}.work img{width:100%;height:100%;object-fit:cover;transition:.35s}.work:hover img{transform:scale(1.07)}
+    .work:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.9))}.work-title{position:absolute;bottom:14px;right:15px;left:15px;z-index:2;font-size:18px;font-weight:800}
+    .why{display:grid;grid-template-columns:repeat(5,1fr);max-width:1200px;margin:auto}.why div{text-align:center;padding:15px;border-left:1px solid #dbe3eb}.why div:last-child{border-left:0}.why b{display:block;font-size:16px;margin-top:8px}
+    .cta{background:linear-gradient(135deg,#071a2d,#123a62);color:#fff;text-align:center}.cta h2{font-size:32px;margin-top:0}.cta p{color:#d9e5f1}
+    footer{background:#03101e;color:#cbd7e3;padding:45px 6% 20px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:35px;max-width:1200px;margin:auto}.footer-title{color:#fff;font-weight:800;font-size:20px}.copy{text-align:center;border-top:1px solid #17304a;margin-top:30px;padding-top:18px;font-size:13px}
+    @media(max-width:950px){.services,.gallery{grid-template-columns:repeat(2,1fr)}.why{grid-template-columns:repeat(2,1fr)}.why div{border-bottom:1px solid #dbe3eb}.top{display:none}nav{display:none}.actions{display:none}}
+    @media(max-width:600px){section{padding:55px 5%}.services,.gallery{grid-template-columns:1fr}.work{height:230px}.hero{min-height:650px}.hero-inner{width:90%}.hero p{font-size:16px}.hero-buttons .btn{width:100%}.why{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.section-title h2{font-size:29px}}
   </style>
 </head>
-
 <body>
 
-  <header>
-    <h1>تأسیسات مهدی</h1>
-    <p>ارائه خدمات تخصصی تأسیسات در تهران</p>
-  </header>
+<div class="top">
+  <div>📍 تهران، منطقه ۲۲ | محدوده فعالیت</div>
+  <div class="phones"><span>☎ <b>09120933252</b> تماس فوری</span><span>💬 <b>09361652004</b> واتساپ</span></div>
+</div>
 
+<header>
+  <a class="logo" href="#home">تأسیسات <span>مهدی</span></a>
   <nav>
-    <a href="#home">خانه</a>
-    <a href="#services">خدمات</a>
-    <a href="#contact">تماس با ما</a>
+    <a href="#home">صفحه اصلی</a><a href="#services">خدمات</a><a href="#works">نمونه‌کارها</a><a href="#why">چرا ما؟</a><a href="#contact">تماس با ما</a>
   </nav>
-
-  <div class="hero" id="home">
-    <h2>خدمات تأسیسات مهدی</h2>
-
-    <p>
-      انجام خدمات تأسیسات، لوله‌کشی، تعمیرات و نصب
-      با تمرکز بر کیفیت و رضایت مشتری.
-    </p>
-
-    <p>
-      📍 محدوده فعالیت: تهران، منطقه ۲۲
-    </p>
-
-    <a class="button" href="#contact">
-      تماس با تأسیسات مهدی
-    </a>
+  <div class="actions">
+    <a class="btn btn-red" href="tel:09120933252">☎ تماس فوری</a>
+    <a class="btn btn-green" href="https://wa.me/989361652004" target="_blank">◉ واتساپ</a>
   </div>
+</header>
 
-  <section id="services">
-    <h2>خدمات ما</h2>
-
-    <div class="services">
-
-      <div class="service">
-        <h3>🔧 تعمیرات تأسیسات</h3>
-        <p>
-          انجام تعمیرات و رفع مشکلات تأسیسات ساختمان.
-        </p>
-      </div>
-
-      <div class="service">
-        <h3>🚰 لوله‌کشی</h3>
-        <p>
-          اجرای خدمات لوله‌کشی و رفع مشکلات مربوط به لوله‌ها.
-        </p>
-      </div>
-
-      <div class="service">
-        <h3>🏠 تأسیسات ساختمان</h3>
-        <p>
-          خدمات مختلف تأسیسات ساختمان در محدوده تهران.
-        </p>
-      </div>
-
-      <div class="service">
-        <h3>🛠️ نصب و سرویس</h3>
-        <p>
-          نصب و سرویس تجهیزات و سیستم‌های تأسیساتی.
-        </p>
-      </div>
-
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="badge">تأسیسات ساختمانی و صنعتی</div>
+    <h1>تأسیسات <span>مهدی</span></h1>
+    <h2>اجرای تخصصی خدمات تأسیسات ساختمانی</h2>
+    <p>جوشکاری، لوله‌کشی گاز، آب و فاضلاب و اجرای کارهای موتورخانه با تمرکز بر کیفیت، دقت و رضایت مشتری.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-red" href="tel:09120933252">☎ تماس فوری: 09120933252</a>
+      <a class="btn btn-green" href="https://wa.me/989361652004" target="_blank">💬 تماس در واتساپ: 09361652004</a>
     </div>
-  </section>
+    <div class="trust"><div><i class="dot"></i> اجرای دقیق کار</div><div><i class="dot"></i> پاسخگویی سریع</div><div><i class="dot"></i> قیمت منصفانه</div><div><i class="dot"></i> تهران منطقه ۲۲</div></div>
+  </div>
+</section>
 
-  <section id="contact">
+<section id="services">
+  <div class="section-title"><h2>خدمات ما</h2><p>خدمات تخصصی تأسیسات برای پروژه‌های ساختمانی و صنعتی</p></div>
+  <div class="services">
+    <article class="card"><div class="icon">🔥</div><h3>جوشکاری</h3><p>جوشکاری حرفه‌ای لوله‌ها و سازه‌های فلزی با تجهیزات مناسب.</p></article>
+    <article class="card"><div class="icon">♨️</div><h3>لوله‌کشی گاز</h3><p>اجرای مسیر و تعمیرات لوله‌کشی گاز با رعایت اصول ایمنی.</p></article>
+    <article class="card"><div class="icon">🚰</div><h3>لوله‌کشی آب</h3><p>نصب و تعمیر لوله‌کشی آب ساختمان و واحدهای مسکونی.</p></article>
+    <article class="card"><div class="icon">🛠️</div><h3>لوله‌کشی فاضلاب</h3><p>اجرای خطوط فاضلاب، تعمیرات و رفع مشکلات لوله‌کشی.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>کار در موتورخانه</h3><p>نصب، تعمیر و سرویس تجهیزات و سیستم‌های موتورخانه.</p></article>
+  </div>
+</section>
 
-    <div class="contact">
+<section class="portfolio" id="works">
+  <div class="section-title"><h2>نمونه‌کارهای ما</h2><p>پروژه‌ها به ترتیب خدمات درخواستی شما</p></div>
+  <div class="gallery">
+    <div class="work"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=85" alt="جوشکاری"><div class="work-title">۱. جوشکاری</div></div>
+    <div class="work"><img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=85" alt="لوله کشی گاز"><div class="work-title">۲. لوله‌کشی گاز</div></div>
+    <div class="work"><img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=85" alt="لوله کشی آب"><div class="work-title">۳. لوله‌کشی آب</div></div>
+    <div class="work"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=85" alt="لوله کشی فاضلاب"><div class="work-title">۴. لوله‌کشی فاضلاب</div></div>
+    <div class="work"><img src="https://images.unsplash.com/photo-1509390280616-0c8e8b0d7a2a?auto=format&fit=crop&w=800&q=85" alt="موتورخانه"><div class="work-title">۵. کار در موتورخانه</div></div>
+  </div>
+</section>
 
-      <h2>تماس با تأسیسات مهدی</h2>
+<section id="why">
+  <div class="section-title"><h2>چرا تأسیسات مهدی؟</h2><p>تمرکز ما روی اجرای منظم و رضایت مشتری است</p></div>
+  <div class="why">
+    <div>🛡️<b>توجه به کیفیت</b><small>اجرای دقیق خدمات</small></div>
+    <div>⏱️<b>پاسخگویی سریع</b><small>هماهنگی و حضور به‌موقع</small></div>
+    <div>👷<b>تیم متخصص</b><small>تجربه در خدمات تأسیسات</small></div>
+    <div>🏷️<b>قیمت منصفانه</b><small>شفافیت در هزینه‌ها</small></div>
+    <div>📍<b>تهران، منطقه ۲۲</b><small>محدوده فعالیت</small></div>
+  </div>
+</section>
 
-      <p>برای دریافت اطلاعات و هماهنگی با ما تماس بگیرید:</p>
+<section class="cta" id="contact">
+  <h2>برای مشاوره و ثبت سفارش تماس بگیرید</h2>
+  <p>برای هماهنگی سریع، از تماس تلفنی یا واتساپ استفاده کنید.</p>
+  <div class="hero-buttons" style="justify-content:center">
+    <a class="btn btn-red" href="tel:09120933252">☎ تماس فوری: 09120933252</a>
+    <a class="btn btn-green" href="https://wa.me/989361652004" target="_blank">💬 واتساپ: 09361652004</a>
+  </div>
+</section>
+</main>
 
-      <a href="tel:09120933252">
-        📞 09120933252
-      </a>
-
-      <a href="tel:09361652004">
-        📞 09361652004
-      </a>
-
-      <p>
-        📍 تهران، منطقه ۲۲
-      </p>
-
-    </div>
-
-  </section>
-
-  <footer>
-    <p>© تمامی حقوق برای تأسیسات مهدی محفوظ است.</p>
-  </footer>
-
+<footer>
+  <div class="footer-grid">
+    <div><div class="footer-title">تأسیسات مهدی</div><p>خدمات تخصصی جوشکاری و تأسیسات ساختمانی در تهران، منطقه ۲۲.</p></div>
+    <div><div class="footer-title">تماس</div><p>تماس فوری: <a href="tel:09120933252">09120933252</a><br>واتساپ: <a href="https://wa.me/989361652004">09361652004</a></p></div>
+    <div><div class="footer-title">خدمات</div><p>جوشکاری<br>لوله‌کشی گاز<br>لوله‌کشی آب<br>لوله‌کشی فاضلاب<br>موتورخانه</p></div>
+  </div>
+  <div class="copy">© 2026 تأسیسات مهدی | تمامی حقوق محفوظ است.</div>
+</footer>
 </body>
 </html>
